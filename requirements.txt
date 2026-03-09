@@ -1,0 +1,45 @@
+# Agri-Intelligence System - Dependencies
+# Phase 1: Core Setup & Auth
+
+# Web Framework
+streamlit>=1.28.0
+
+# AWS Services
+boto3>=1.28.0
+botocore>=1.31.0
+
+# Machine Learning & Forecasting
+prophet>=1.1.4
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Data Visualization
+plotly>=5.17.0
+
+# Testing
+pytest>=7.4.0
+hypothesis>=6.88.0
+
+# HTTP Requests
+requests>=2.31.0
+
+# RSS Feed Parsing
+feedparser>=6.0.10
+
+# QR Code Generation & Image Processing
+qrcode>=7.4.2
+Pillow>=10.0.0
+pyzbar>=0.1.9
+
+# Geolocation
+geopy>=2.4.0
+
+# Voice Processing
+SpeechRecognition>=3.10.0
+gTTS>=2.4.0
+
+# Security
+bcrypt>=4.0.1
+
+# Utilities
+python-dotenv>=1.0.0
