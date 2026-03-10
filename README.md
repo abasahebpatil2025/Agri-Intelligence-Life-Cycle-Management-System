@@ -1,13 +1,24 @@
-# Agri-Intelligence & Life-Cycle Management System
+# 🌾 Agri-Intelligence & Life-Cycle Management System
 
-A cloud-native agricultural decision support platform for Indian farmers.
+A cloud-native agricultural decision support platform leveraging Generative AI and Serverless Architecture to empower Indian farmers with real-time insights.
 
-## Setup
+## 🚀 Why This Solution?
+Agriculture in India faces challenges like unpredictable weather and pest outbreaks. Our system acts as an AI-powered Agri-Expert, providing:
+- **Instant Disease Diagnosis:** Using Computer Vision to detect crop health.
+- **Market Intelligence:** Real-time data to help farmers get the best prices.
+- **Smart Storage Monitoring:** IoT-ready infrastructure to track humidity/temperature.
 
-1. Install dependencies:
+## ☁️ AWS & GenAI Architecture
+We have built this on a **Serverless-First** approach:
+- **Amazon Bedrock:** Powers our Marathi-language AI Assistant, providing RAG-based crop recommendations.
+- **Amazon DynamoDB:** A scalable NoSQL backend that handles our user data and real-time sensor readings (`AgriIntelligence_Data` & `SensorReadings` tables).
+- **Amazon S3:** Secure storage for crop images and diagnostic reports.
+
+## 🛠 Setup
+
+1. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
-   ```
 
 2. Configure secrets:
    ```bash
@@ -32,3 +43,4 @@ A cloud-native agricultural decision support platform for Indian farmers.
 - `tests/` - Test suite
 - `config/` - Configuration files
 - `data/` - Data storage
+
